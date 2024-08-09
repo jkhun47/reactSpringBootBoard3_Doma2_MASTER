@@ -1,0 +1,1 @@
+select MAX(emp_no) from EMPLOYEES.EMPLOYEES
