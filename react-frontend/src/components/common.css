@@ -1,0 +1,248 @@
+/* common.css */
+/* 테이블 */
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td,
+#customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+    background-color: #ddd;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+/* 페이지네이션 */
+.pagination {
+    display: inline-block;
+}
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #4CAF50;
+    border-radius: 5px;
+}
+/* 텍스트박스 */
+input[type=text] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    outline: none;
+}
+input[type=text]:focus {
+    background-color: lightblue;
+}
+/* 드롭다운 */
+/* Style The Dropdown Button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+/* 검색버튼 */
+.searchbtn {
+    background-color: #c5ccc6;
+    color: rgb(31, 29, 29);
+    padding: 14px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+}
+/* 글쓰기버튼 */
+.writebtn {
+    background-color: #616461;
+    color: white;
+    padding: 12px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+/* 셀렉트박스 */
+select {
+    width: 8%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    outline: none;
+}
+
+.board-detail {
+    width: 700px;
+    margin: auto;
+    text-align: left;
+}
+
+.board-contents {
+    padding: 12px 8px;
+    border-bottom: 1px solid #eee;
+}
+
+#register,
+#login {
+    width: 300px;
+    border: 1px solid #d6d7da;
+    padding: 0px 15px 15px 15px;
+    border-radius: 5px;
+    font-family: arial;
+    line-height: 16px;
+    color: #333333;
+    font-size: 14px;
+    background: #ffffff;
+    margin: 100px auto;
+}
+
+form label,
+form input {
+    display: block;
+    /* margin-bottom: 10px; */
+    width: 90%
+}
+
+form input {
+    padding: 10px;
+    border: solid 1px #BDC7D8;
+}
+
+.button {
+    background-color: #3e8e41;
+    border-color: #3ac162;
+    font-weight: bold;
+    padding: 12px 15px;
+    color: #ffffff;
+}
+
+.errorMsg {
+    color: #cc0000;
+    margin-bottom: 12px;
+}
+
+.sucessMsg {
+    color: #6B8E23;
+    margin-bottom: 10px;
+}
+
+form input[type=text] {
+    width: 90%;
+    /* padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    outline: none; */
+}
+
+.list table {
+    border-collapse: collapse;
+    /* margin: 20px 0; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.list th,
+.list td {
+    border: 1px solid #a2aab0;
+    padding: 20px 10px;
+}
+
+.list th {
+    background-color: #74a169;
+}
+
+/* 수정버튼 */
+.editbtn {
+    background-color: #97db97;
+    color: white;
+    padding: 10px;
+    font-size: 10px;
+    border: none;
+    cursor: pointer;
+}
+/* 삭제버튼 */
+.deletebtn {
+    background-color: #d4514d;
+    color: white;
+    padding: 10px;
+    font-size: 10px;
+    border: none;
+    cursor: pointer;
+}
+/* 목록버튼 */
+.listbtn {
+    background-color: #616461;
+    color: white;
+    padding: 10px;
+    font-size: 10px;
+    border: none;
+    cursor: pointer;
+}
