@@ -25,5 +25,5 @@ dependencies {
   annotationProcessor 'org.seasar.doma:doma-processor:2.47.1'
   // jdbc
 //  runtimeOnly 'org.postgresql:postgresql'
-  runtimeOnly 'org.mariadb.jdbc:mariadb-java-client'
+  implementation 'org.mariadb.jdbc:mariadb-java-client:2.7.4'
 }
